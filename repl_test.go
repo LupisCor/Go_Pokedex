@@ -33,7 +33,7 @@ func TestCleanInput(t *testing.T) {
 		// if they don't match, use t.Errorf to print an error message
 		// and fail the test
 		if len(actual) != len(c.expected) {
-			t.Errorf("Actual length does not match expected length '%v' - '%v", actual, c.expected)
+			t.Errorf("Actual length does not match expected length '%v' - '%v'", actual, c.expected)
 			continue
 		}
 
